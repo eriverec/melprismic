@@ -50,7 +50,8 @@ export default {
   prismic: {
     endpoint: "https://melprismic.cdn.prismic.io/api/v2",
     linkResolver: "@/plugins/link-resolver",
-    htmlSerializer: "@/plugins/html-serializer"
+    htmlSerializer: "@/plugins/html-serializer",
+    preview: false
   },
 
   /*
